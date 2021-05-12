@@ -1,0 +1,48 @@
+body{
+        padding-left: 30px;
+    	background-color:rgb(179,139,109);
+}
+
+
+h3{
+	color: #f5f5dc;
+		font-family: 'Special Elite', cursive;
+		font-size: 1.6em;
+		text-align: left;
+		width: 1300px;
+		padding-left: 30px;
+		letter-spacing: 1px;
+
+}
+img{
+	padding-left: 30px;
+	padding-bottom: 30px;
+	transition: all 1s;
+
+}
+img:hover{
+
+	transform: scale(1.2);
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(179,139,109);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:  rgb(135,82,74);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:  rgb(100,82,74);
+}
+video{
+	padding-left: 30px;
+}

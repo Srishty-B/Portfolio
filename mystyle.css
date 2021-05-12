@@ -1,0 +1,10 @@
+body{
+	background-color: rgb(179,139,109);
+}
+p{
+	text-align: center;
+	font-family: 'Special Elite', cursive;
+	color: #f5f5dc;
+	font-size: 1.5em;
+	line-height: 50px;
+}

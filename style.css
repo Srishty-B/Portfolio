@@ -1,0 +1,300 @@
+    html{
+    	scroll-behavior: smooth;
+    }
+    body{
+    	margin: 0px;
+    	background-color:rgb(179,139,109); 
+    	
+    }
+	h1{
+	
+		color: rgb(135,82,74);
+		font-size: 4em;
+		font-family: 'Special Elite', cursive;
+		/*background-image: url(menu.jpg);*/
+
+
+	}
+	h4{
+		color: #f5f5dc;
+		font-family: 'Special Elite', cursive;
+		font-size: 4em;
+		text-align: left;
+		width: 700px;
+
+
+	}
+	h6{
+			color: #f5f5dc;
+		font-family: 'Special Elite', cursive;
+		font-size: 1.5em;
+		text-align: left;
+		padding-left: 20px;
+	}
+	
+
+		.container-fluid{
+			display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0px 0px 400px 0px;
+		/*background-image: url(back.png);*/
+		background-size: cover;
+		margin:0px;
+
+	}
+
+	.second{
+	    display: flex;
+		color: white;
+		background-color: rgb(179,139,109);
+	    background-image: url(about.png);
+	    background-size: cover;
+		
+		padding: 150px 100px 300px 100px;
+	}
+
+.second img{
+	display: flex;
+	float: right;
+
+}
+	.typewriter img{
+		transition: all 1s;
+		/*padding-top: 80px;*/
+
+	}
+	.typewriter img:hover{
+		transform: scale(1.1);
+		cursor: default;
+	}
+	
+	.typewriter h1{
+	
+         padding-top: 60px;
+         overflow: hidden;
+         border-right: .10em solid rgb(135,82,74);
+         white-space: nowrap;
+         margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+	}
+	/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(135,82,74); }
+}
+.menu{
+	background-color: rgb(179,139,109); 
+	height: 60px;
+	
+}
+.sticky{
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+.main-nav{
+	display: flex;
+	list-style: none;
+	font-size: 1em;
+	font-family: 'Special Elite', cursive;
+
+}
+@media only screen and (max-width:600px){
+.main-nav{
+	font-size: 0.5em;
+}
+}
+.push{
+	margin-left: auto;
+}
+li{
+	padding: 20px 20px 0px 20px;
+}
+a{
+	color: #f5f5dc;
+	text-decoration: none;
+}
+a:hover{
+	color: #f5c484;
+	text-decoration: none;
+	cursor: url(cursor.png), auto;
+}
+.third{
+	padding: 200px 100px 300px 200px;
+	background-image: url(project.png);
+	background-size: cover;
+	
+}
+.proj{
+	color: #f5f5dc;
+		font-family: 'Special Elite', cursive;
+		font-size: 4em;
+		text-align: left;
+	
+}
+.fourth{
+	padding: 200px 0px 300px 200px;
+	background-image: url(interest.png);
+	background-size: cover;
+	margin-right: 0px;
+
+}
+.inter{
+	color: #f5f5dc;
+		font-family: 'Special Elite', cursive;
+		font-size: 4em;
+		text-align: left;
+		
+}
+.second p{
+	color: #f5f5dc;
+		font-family: 'Special Elite', cursive;
+		font-size: 1.5em;
+		text-align: left;
+	padding-right: 20px;
+	padding-left: 20px;
+	letter-spacing: .08em;
+	background-color: rgba(0,0,0,0.3);
+   padding-top: 40px;
+}
+.fifth{
+	/*padding: 200px 100px 300px 200px;*/
+	background-image: url(educ.png);
+	background-size: cover;
+}
+
+.educ{
+	    color: #f5f5dc;
+		font-family: 'Special Elite', cursive;
+		font-size: 4em;
+		text-align: center;
+
+	/*	width: 1300px;*/
+
+}
+.apple{
+	padding-top: 200px;
+}
+.sixth{
+	padding: 200px 100px 300px 200px;
+	background-image: url(cont.png);
+	background-size: cover;
+}
+.con{
+ color: #f5f5dc;
+		font-family: 'Special Elite', cursive;
+		font-size: 4em;
+		text-align: left;
+	    width: 700px;	
+
+}
+.conta{
+	color: #f5f5dc;
+		font-family: 'Special Elite', cursive;
+		font-size: 0.4em;
+		text-align: left;
+		width: 900px;
+}
+/*.myinter{
+	display: flex;
+	float: right;
+	margin-right: 0px;
+	padding-right: 0px;
+}*/
+.third img{
+	transition: all 1s;
+}
+.third img:hover{
+	transform: scale(1.2);
+}
+.fourth img{
+	transition: all 1s;
+}
+.fourth img:hover{
+	transform: scale(1.1);
+}
+.educontainer{
+	position: relative;
+	text-align: center;
+	
+
+}
+.edutext{
+	position: absolute;
+	top: 16%;
+	left: 18%;
+}
+ h3{
+    font-family: 'Special Elite', cursive;
+    color:  #235213;
+}
+ul{
+	  font-family: 'Special Elite', cursive;
+    color:  #235213;
+    font-size: 30px;
+    text-align: left;
+}
+.edutext2{
+	position: absolute;
+	top: 34%;
+	left: 24%;
+	text-align: left;
+}
+.allen{
+	 font-family: 'Special Elite', cursive;
+    color:  #235213;
+    font-size: 30px;
+    text-align: left;
+}
+.edutext3{
+	position: absolute;
+	top: 73%;
+	left: 15%;
+	text-align: left;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(179,139,109);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:  rgb(135,82,74);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:  rgb(100,82,74);
+}
+.online-courses h2{
+	color: rgb(140,82,74);
+	padding-left: 50px;
+ font-family: 'Special Elite', cursive;
+ font-size: 4em;
+
+}
+.online-courses img{
+	padding-left: 170px;
+	padding-right: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	transition: all 1s;
+}
+.online-courses img:hover{
+	transform: scale(1.2);
+}
