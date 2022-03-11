@@ -1,0 +1,63 @@
+body{
+      
+        padding-top: 20px;
+    	background-color:rgb(179,139,109);
+    	
+    	
+
+}
+
+h1{
+	color:#f5f5dc;
+	font-family: 'Special Elite', cursive;
+		font-size: 1.6em;
+		display: block;
+		font-weight: normal;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		width: 1300px;
+		letter-spacing: 3px;
+		/*line-height: 30px;*/
+
+}
+
+
+
+img{
+
+	padding-bottom: 30px;
+	transition: all 1s;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+
+
+
+}
+img:hover{
+
+	transform: scale(1.04);
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(179,139,109);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:  rgb(135,82,74);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:  rgb(100,82,74);
+}
+video{
+	padding-left: 30px;
+}
